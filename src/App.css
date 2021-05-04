@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* ------------------------------ My CSS ------------------------- */
+
+img{
+  border-radius: 5px;
 }
+
+header{
+  position: fixed;
+}
+
+
+/* ----------- Mobile version ------- */
+/* -- Header -- */
+.onlyIpadComputer{
+  display: none;
+}
+
+h1{
+  font-size: 1em;
+}
+
