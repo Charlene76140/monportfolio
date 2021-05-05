@@ -1,10 +1,16 @@
 import './App.css';
-import Header from './layout/header/Header'
+import Nav from './layout/nav/Nav'
+import Aboutme from './aboutme/Aboutme'
 
 function App() {
   return (
     <div>
-      <Header />
+      <header>
+        <Nav />
+      </header>
+      <main>
+        <Aboutme />
+      </main>
     </div>
   );
 }

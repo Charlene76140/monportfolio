@@ -37,24 +37,106 @@
   }
 } */
 
-/* ------------------------------ My CSS ------------------------- */
+/* ------------------------------------------ My CSS --------------------------------------- */
+*, h1, h2,h3{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Comfortaa', cursive;
+}
 
 img{
   border-radius: 5px;
 }
 
+/* ----------------- Mobile version ------------- */
+/* ---- Header ---- */
 header{
   position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
+h1{
+  font-size: 1.3em;
+}
 
-/* ----------- Mobile version ------- */
-/* -- Header -- */
+nav{
+  height: 15vh;
+}
+
+/* ---- main ---- */
 .onlyIpadComputer{
   display: none;
 }
 
-h1{
-  font-size: 1em;
+main{
+  margin-top: 15vh;
+}
+
+hr{
+  width: 40%;
+  margin: 0% 30% 0% 30%;
+}
+
+#aboutme{
+  width: 80%;
+  margin: auto;
+  color: white
+}
+
+main .colorAboutMe{
+  background-color: #798478 ;
+}
+
+/* ---------------- Ipad Version ---------------- */
+@media screen and (min-width: 576px){
+  /* ---- Header ---- */
+  .onlyMobile{
+    display: none;
+  }
+
+  .onlyIpadComputer{
+    display: block;
+  }
+
+  h1{
+    font-size: 1.5em;
+  }
+
+  nav{
+    height: 10vh;
+  }
+
+  /* ---- main ---- */
+  main{
+    margin-top: 10vh;
+  }
+}
+
+
+/* ---------------- Computer Version ---------------- */
+@media screen and (min-width: 992px){
+  /* ---- Header ---- */
+  h1{
+    font-size: 1.8em;
+  }
+
+  .nav-link{
+    font-size: 1.2em;
+  }
+
+  /* ---- main ---- */
+  hr{
+    width: 30%;
+    margin: 2% 35% 2% 35%;
+  }
+
+  #aboutme{
+    width: 60%;
+    margin: auto;
+  }
 }
 
