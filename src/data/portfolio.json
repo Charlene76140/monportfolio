@@ -1,0 +1,21 @@
+{
+  "projet1": {
+    "nom": "nomduprojet",
+    "image": "voir image",
+    "description":"blablablablabla blabla bla bla bla",
+    "outils": "JS - CSS - HTML",
+    "lienGithub": "react-scripts start",
+    "lienSite": "react-scripts start"
+  },
+
+  "projet2": {
+    "nom": "nomduprojet2",
+    "image": "voir image2",
+    "description":"blablablablabla blabla bla bla bla2",
+    "outils": "JS orienté objet - CSS - HTML - REACT",
+    "lienGithub": "react-scripts start2",
+    "lienSite": "react-scripts start2"
+  }
+
+}
+

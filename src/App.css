@@ -38,7 +38,7 @@
 } */
 
 /* ------------------------------------------ My CSS --------------------------------------- */
-*, h1, h2,h3{
+*, h1, h2,h3, p{
   margin: 0;
   padding: 0;
 }
@@ -74,6 +74,7 @@ nav{
 
 main{
   margin-top: 15vh;
+  color: white;
 }
 
 hr{
@@ -82,15 +83,17 @@ hr{
 }
 
 #aboutme{
-  width: 80%;
+  width: 85%;
   margin: auto;
-  color: white
 }
 
 main .colorAboutMe{
   background-color: #798478 ;
 }
 
+main .colorPortfolio{
+  background-color : #4d6a6d;
+}
 /* ---------------- Ipad Version ---------------- */
 @media screen and (min-width: 576px){
   /* ---- Header ---- */
@@ -135,7 +138,7 @@ main .colorAboutMe{
   }
 
   #aboutme{
-    width: 60%;
+    width: 50%;
     margin: auto;
   }
 }
