@@ -1,5 +1,6 @@
 import React from "react";
 import Makecards from './makecards/Makecards'
+import Test from './makecards/Test'
 
 class Portfolio extends React.Component {
     constructor (props) {
@@ -13,6 +14,7 @@ class Portfolio extends React.Component {
                     <h2 className="text-center py-4"><i class="fas fa-laptop"></i> Mes projets</h2>
                     <hr />
                     <Makecards />
+                    {/* <Test /> */}
                 </section>
             </div>
         );

@@ -96,8 +96,12 @@ main .colorPortfolio{
 }
 
 .card{
-  position: none;
+  position: inherit;
 }
+
+/* .test{
+  background-image: url("image/memory.PNG");
+} */
 /* ---------------- Ipad Version ---------------- */
 @media screen and (min-width: 576px){
   /* ---- Header ---- */
@@ -121,6 +125,7 @@ main .colorPortfolio{
   main{
     margin-top: 10vh;
   }
+
 }
 
 

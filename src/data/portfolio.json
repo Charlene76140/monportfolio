@@ -1,21 +1,31 @@
-{
-  "projet1": {
+[
+  {
     "nom": "Mémo Fruits",
-    "image": "voir image",
+    "image": "../image/memory.PNG",
+    "shortdescription": "a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage",
     "description":"blablablablabla blabla bla bla bla",
     "outils": "JS - CSS - HTML",
     "lienGithub": "react-scripts start",
-    "lienSite": "react-scripts start"
+    "lienSite": "react-scripts start",
+    "target": "#1",
+    "id" : "1"
   },
 
-  "projet2": {
+  {
     "nom": "nomduprojet2",
     "image": "voir image2",
-    "description":"blablablablabla blabla bla bla bla2",
+    "shortdescription": "bla bla bla plus cours 2",
+    "description":"blablablablabla blabla bla bla bla ok c'est partis",
     "outils": "JS orienté objet - CSS - HTML - REACT",
     "lienGithub": "react-scripts start2",
-    "lienSite": "react-scripts start2"
+    "lienSite": "react-scripts start2",
+    "target": "#2",
+    "id" : "2"
   }
 
-}
+  
+
+]
+  
+
 

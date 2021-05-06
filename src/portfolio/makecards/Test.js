@@ -1,7 +1,7 @@
 import img from '../../image/memory.PNG'
 import portfolio from '../../data/portfolio.json'
 
-function Makecards () {
+function Test () {
     return (
         <div className="row py-4">
             {portfolio.map((project, index) => {
@@ -11,12 +11,12 @@ function Makecards () {
                     <div className="card-body d-flex flex-column justify-content-center">
                         <h5 className="card-title text-dark">{project.nom}</h5>
                         <p className="card-text text-dark">{project.shortdescription}</p>
-                        <button type="button" class="btn btn-secondary my-2" data-bs-toggle="modal" data-bs-target="#test">
+                        <button type="button" class="btn btn-secondary my-2" data-bs-toggle="modal" data-bs-target="#test2">
                             Voir le projet
                         </button>
                     </div>
 
-                    <div class="modal fade" id="test" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal fade" id="test2" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -34,6 +34,6 @@ function Makecards () {
     );
 }
 
-export default Makecards;
+export default Test;
 
 
