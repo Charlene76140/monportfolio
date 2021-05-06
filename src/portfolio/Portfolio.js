@@ -1,6 +1,6 @@
 import React from "react";
-import Makecards from './makecards/Makecards'
-import Test from './makecards/Test'
+import Memofruits from "./makecards/Memofruits";
+
 
 class Portfolio extends React.Component {
     constructor (props) {
@@ -13,8 +13,12 @@ class Portfolio extends React.Component {
                 <section id="project" className="container-fluid">
                     <h2 className="text-center py-4"><i class="fas fa-laptop"></i> Mes projets</h2>
                     <hr />
-                    <Makecards />
-                    {/* <Test /> */}
+                    <div className="row py-4">
+                        <Memofruits />
+                        <Memofruits />
+                        <Memofruits />
+                    </div>
+                    
                 </section>
             </div>
         );

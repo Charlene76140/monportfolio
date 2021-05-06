@@ -38,7 +38,7 @@
 } */
 
 /* ------------------------------------------ My CSS --------------------------------------- */
-*, h1, h2,h3, p{
+*, h1, h2,h3,h4,h5,h6 p{
   margin: 0;
   padding: 0;
 }
@@ -83,7 +83,7 @@ hr{
 }
 
 #aboutme, #project{
-  width: 85%;
+  width: 80%;
   margin: auto;
 }
 
@@ -99,9 +99,14 @@ main .colorPortfolio{
   position: inherit;
 }
 
-/* .test{
-  background-image: url("image/memory.PNG");
-} */
+.card-img-top{
+  width: 40%;
+}
+
+.card-header{
+  padding: 3% 0;
+}
+
 /* ---------------- Ipad Version ---------------- */
 @media screen and (min-width: 576px){
   /* ---- Header ---- */
@@ -126,6 +131,9 @@ main .colorPortfolio{
     margin-top: 10vh;
   }
 
+  
+  
+  
 }
 
 
