@@ -103,6 +103,11 @@ main .colorPortfolio{
   width: 40%;
 }
 
+.imgmodal{
+  width: 30%;
+  margin-bottom: 5px;
+}
+
 .card-header{
   padding: 3% 0;
 }
@@ -157,6 +162,14 @@ main .colorPortfolio{
   #aboutme, #project{
     width: 50%;
     margin: auto;
+  }
+
+  .card-img-top{
+    width: 50%;
+  }
+
+  .imgmodal{
+    width: 100%;
   }
 }
 

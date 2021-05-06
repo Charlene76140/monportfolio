@@ -1,5 +1,10 @@
 import React from "react";
 import Memofruits from "./makecards/Memofruits";
+import CR from "./makecards/CR";
+import Terre2geek from "./makecards/Terre2geek";
+import Norimmo from "./makecards/Norimmo";
+import Jeudupendu from "./makecards/Jeudupendu";
+import Chifoumi from "./makecards/Chifoumi";
 
 
 class Portfolio extends React.Component {
@@ -15,10 +20,12 @@ class Portfolio extends React.Component {
                     <hr />
                     <div className="row py-4">
                         <Memofruits />
-                        <Memofruits />
-                        <Memofruits />
+                        <CR />
+                        <Terre2geek />
+                        <Norimmo />
+                        <Jeudupendu />
+                        <Chifoumi />
                     </div>
-                    
                 </section>
             </div>
         );
