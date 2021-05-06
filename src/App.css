@@ -82,7 +82,7 @@ hr{
   margin: 0% 30% 0% 30%;
 }
 
-#aboutme{
+#aboutme, #project{
   width: 85%;
   margin: auto;
 }
@@ -93,6 +93,10 @@ main .colorAboutMe{
 
 main .colorPortfolio{
   background-color : #4d6a6d;
+}
+
+.card{
+  position: none;
 }
 /* ---------------- Ipad Version ---------------- */
 @media screen and (min-width: 576px){
@@ -137,7 +141,7 @@ main .colorPortfolio{
     margin: 2% 35% 2% 35%;
   }
 
-  #aboutme{
+  #aboutme, #project{
     width: 50%;
     margin: auto;
   }

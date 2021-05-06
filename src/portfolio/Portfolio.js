@@ -9,8 +9,8 @@ class Portfolio extends React.Component {
     render () {
         return (
             <div className="colorPortfolio">
-                <section id="project">
-                    <h2>Mes projets</h2>
+                <section id="project" className="container-fluid">
+                    <h2 className="text-center py-4"><i class="fas fa-laptop"></i> Mes projets</h2>
                     <hr />
                     <Makecards />
                 </section>
