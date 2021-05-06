@@ -7,13 +7,17 @@ function Terre2geek () {
             {portfolio.map((project) => {
                 return (
                     <div className="card py-3">
-                        <div className="d-flex justify-content-center"><img src={img} className="card-img-top" alt="logo memory"/></div>
-                        <div className="card-body d-flex flex-column">
-                            <h5 className="card-title text-dark text-center text-decoration-underline">{project.title}</h5>
-                            <p className="card-text text-dark text-center">{project.shortdescription}</p>
-                            <button type="button" class="btn btn-secondary my-2" data-bs-toggle="modal" data-bs-target="#terre">
-                                Voir le projet
-                            </button>
+                        <div className="d-flex flex-column justify-content-between">
+                            <div className="d-flex justify-content-center">
+                                <img src={img} className="card-img-top" alt="logo pierre"/>
+                            </div>
+                            <div className="card-body d-flex flex-column justify-content-between">
+                                <h5 className="card-title text-dark text-center text-decoration-underline my-3">{project.title}</h5>
+                                {/* <p className="card-text text-dark text-center">{project.shortdescription}</p> */}
+                                <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#terre">
+                                    Voir le projet <i class="fas fa-search-plus"></i>
+                                </button>
+                            </div>
                         </div>
 
                         <div class="modal fade" id="terre" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">

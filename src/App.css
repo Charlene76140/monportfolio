@@ -89,6 +89,7 @@ hr{
 
 main .colorAboutMe{
   background-color: #798478 ;
+  min-height: 100vh;
 }
 
 main .colorPortfolio{
@@ -97,6 +98,7 @@ main .colorPortfolio{
 
 .card{
   position: inherit;
+  /* height: 60vh; */
 }
 
 .card-img-top{
@@ -110,6 +112,14 @@ main .colorPortfolio{
 
 .card-header{
   padding: 3% 0;
+}
+
+.fa-angle-up{
+  font-size: 2em;
+}
+
+.fa-angle-up:hover{
+  color: black;
 }
 
 /* ---------------- Ipad Version ---------------- */
@@ -136,9 +146,13 @@ main .colorPortfolio{
     margin-top: 10vh;
   }
 
-  
-  
-  
+  .fa-angle-up{
+    font-size: 3em;
+  }
+
+  .fa-angle-up:hover{
+    color: black;
+  }
 }
 
 
@@ -151,8 +165,13 @@ main .colorPortfolio{
 
   .nav-link{
     font-size: 1.2em;
+    border-bottom: 0.15rem solid white;
   }
 
+  .nav-link:hover{
+    border-bottom: 0.15rem solid grey;
+  }
+  
   /* ---- main ---- */
   hr{
     width: 30%;

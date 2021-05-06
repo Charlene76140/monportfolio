@@ -1,8 +1,7 @@
 [
   {
     "title": "Crédit Rouennais",
-    "shortdescription": "Ce site est une application bancaire qui permet à l’utilisateur de créer et gérer ses comptes.",
-    "description":"Ce projet a été réalisé dans le cadre de ma formation développeur web et web mobile afin de valider mes acquis depuis le début de la formation, notamment sur Ajax.",
+    "description":"Ce site est une application bancaire qui permet à l’utilisateur de créer et gérer ses comptes. Ce projet a été réalisé dans le cadre de ma formation développeur web et web mobile afin de valider mes acquis depuis le début de la formation, notamment sur les requêtes Ajax.",
     "outils": "Javascript, CSS, HTML, Bootstrap5, AJAX",
     "lienGithub": "Lien vers mon Github",
     "lienSite": "Lien vers le site"

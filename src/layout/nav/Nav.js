@@ -20,7 +20,7 @@ function Nav () {
                         <a className="nav-link" href="#aboutme">A propos de moi</a>
                         </li>
                         <li className="nav-item p-1">
-                        <a className="nav-link" href="#carrer">Mon parcours professionnel</a>
+                        <a className="nav-link" href="#carrer">Mon parcours</a>
                         </li>
                         <li className="nav-item p-1">
                         <a className="nav-link" href="#skills">Mes compétences</a>
