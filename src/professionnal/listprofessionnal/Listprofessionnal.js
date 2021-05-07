@@ -11,7 +11,7 @@ function Listprofessionnal () {
                             <h6 className="p-3">{data.de}<br/> {data.à}</h6>
                         </div>
                         <div className="col-6 text-center parcours text-dark">
-                            <h5>{data.poste}</h5>
+                            <h6>{data.poste}</h6>
                             <p>{data.description} <strong>{data.entreprise}</strong></p>
                         </div>
                     </div>

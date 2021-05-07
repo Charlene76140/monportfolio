@@ -5,7 +5,7 @@ function Nav () {
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid justify-content-between">
                 <div className="d-flex flex-column align-items-center">
-                    <h1 className="mt-3 ms-lg-5" id="toppage">Charlène Saint-Julien</h1>
+                    <h1 className="mt-3 ms-lg-5">Charlène Saint-Julien</h1>
                     <p>Développeuse web</p>
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

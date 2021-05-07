@@ -11,7 +11,6 @@ function Aboutme () {
                 <hr />
                 <div className="onlyMobile my-4"><img className ="float-start my-2 mx-3" src={moipetit}/><div className="pb-4">{aboutme.container}</div></div>
                 <div className="onlyIpadComputer my-5"><img className ="float-start my-3 mx-4" src={moi}/><div className="pb-5">{aboutme.container}</div></div>
-                <p className="text-center" ><a href="#project" className="text-light" title="Haut de page"><i class="fas fa-angle-up"></i></a></p>
             </section>
         </div>
     );

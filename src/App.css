@@ -53,7 +53,7 @@ img{
 }
 
 /* ----------------- Mobile version ------------- */
-/* ---- Header ---- */
+/* ------ Header ------ */
 header{
   position: fixed;
   top: 0px;
@@ -72,7 +72,7 @@ nav{
   height: 15vh;
 }
 
-/* ---- main ---- */
+/* ------- main ------ */
 .onlyIpadComputer{
   display: none;
 }
@@ -87,27 +87,34 @@ hr{
   margin: 0% 30% 0% 30%;
 }
 
-#aboutme, #project, #carrer, #competences{
+#aboutme, #project, #carrer, #competences, #contact{
   width: 85%;
   margin: auto;
 }
 
-main .colorAboutMe{
-  background-color: #798478 ;
-  min-height: 80vh;
-}
 
 main .colorPortfolio{
   background-color : #4d6a6d;
 }
 
+main .colorAboutMe{
+  background-color: #798478 ;
+  min-height: 70vh;
+}
+
 main .colorProfessionnal{
   background-color : #a0a083;
+  min-height: 100vh;
 }
 
 main .colorCompetences{
   background-color : #c9ada1;
-  min-height: 80vh;
+  min-height: 70vh;
+}
+
+main .colorContact{
+  background-color : #eae0cc;
+  min-height: 60vh;
 }
 
 .card, .accordion-button{
@@ -126,14 +133,6 @@ main .colorCompetences{
 
 .card-header{
   padding: 3% 0;
-}
-
-.fa-angle-up{
-  font-size: 2em;
-}
-
-.fa-angle-up:hover{
-  color: black;
 }
 
 .dates{
@@ -164,9 +163,39 @@ main .colorCompetences{
   background-color: #4d6a6d;
 }
 
+.colorPrincipal{
+  color: #4d6a6d;
+}
+
+.sizeIcon{
+  font-size: 60px;
+}
+
+.toTop{
+  color: white;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 100;
+  background-color: rgba(83, 88, 102, 0.7);
+  border-radius: 50%;
+  width: 10%;
+  font-size: 2.5em;
+}
+
+.fa-angle-up:hover{
+  color: rgba(94, 85, 85, 0.986);
+}
+
+/* ------ Footer ----- */
+.copyrigth{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
 /* ---------------- Ipad Version ---------------- */
 @media screen and (min-width: 576px){
-  /* ---- Header ---- */
+  /* ------- Header ------ */
   .onlyMobile{
     display: none;
   }
@@ -183,7 +212,7 @@ main .colorCompetences{
     height: 10vh;
   }
 
-  /* ---- main ---- */
+  /* ------- main ------- */
   main{
     margin-top: 10vh;
   }
@@ -204,12 +233,15 @@ main .colorCompetences{
     width: 25%;
     padding: 5% 0;
   }
+  .toTop{
+    font-size: 2.2em;
+    width: 5%;
+  }
 }
-
 
 /* ---------------- Computer Version ---------------- */
 @media screen and (min-width: 992px){
-  /* ---- Header ---- */
+  /* ------- Header ------- */
   h1{
     font-size: 1.8em;
   }
@@ -223,10 +255,10 @@ main .colorCompetences{
     border-bottom: 0.15rem solid grey;
   }
   
-  /* ---- main ---- */
+  /* ------- main -------- */
 
   h6{
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   h2{
@@ -243,7 +275,7 @@ main .colorCompetences{
     margin: 2% 35% 2% 35%;
   }
 
-  #aboutme, #project, #carrer, #competences{
+  #aboutme, #project, #carrer, #competences, #contact{
     width: 60%;
     margin: auto;
   }
@@ -264,6 +296,10 @@ main .colorCompetences{
   .dates{
     width: 17%;
     padding: 3% 0;
+  }
+  .toTop{
+    font-size: 3em;
+    width: 3%;
   }
 }
 
