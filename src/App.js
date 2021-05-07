@@ -3,6 +3,7 @@ import Nav from './layout/nav/Nav'
 import Aboutme from './aboutme/Aboutme'
 import Portfolio from './portfolio/Portfolio';
 import Professionnal from './professionnal/Professionnal';
+import Competences from './competences/Competences';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Portfolio />
         <Aboutme />
         <Professionnal />
+        <Competences />
       </main>
     </div>
   );

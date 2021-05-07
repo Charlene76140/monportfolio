@@ -61,7 +61,11 @@ header{
 }
 
 h1{
-  font-size: 1.3em;
+  font-size: 1.2em;
+}
+
+main p{
+  font-size: 0.9em;
 }
 
 nav{
@@ -83,14 +87,14 @@ hr{
   margin: 0% 30% 0% 30%;
 }
 
-#aboutme, #project, #carrer{
+#aboutme, #project, #carrer, #competences{
   width: 85%;
   margin: auto;
 }
 
 main .colorAboutMe{
   background-color: #798478 ;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 main .colorPortfolio{
@@ -101,7 +105,12 @@ main .colorProfessionnal{
   background-color : #a0a083;
 }
 
-.card{
+main .colorCompetences{
+  background-color : #c9ada1;
+  min-height: 80vh;
+}
+
+.card, .accordion-button{
   position: inherit;
   box-shadow: 0px 3px 1px rgb(0 0 0 / 30%);
 }
@@ -130,7 +139,7 @@ main .colorProfessionnal{
 .dates{
   color: #fff;
   background: #c9ada1;
-  width: 60%;
+  width: 55%;
   padding: 15% 0;
   border-radius: 50%;
   box-shadow: 0px 3px 1px rgb(0 0 0 / 30%);
@@ -146,6 +155,15 @@ main .colorProfessionnal{
   border-radius: 12px;
 }
 
+.fa-code, .fa-tools, .fa-globe-europe, .fa-user-circle{
+  font-size: 1.5em;
+  color: #4d6a6d;
+}
+
+.badge{
+  background-color: #4d6a6d;
+}
+
 /* ---------------- Ipad Version ---------------- */
 @media screen and (min-width: 576px){
   /* ---- Header ---- */
@@ -157,8 +175,8 @@ main .colorProfessionnal{
     display: block;
   }
 
-  h1{
-    font-size: 1.5em;
+  main p{
+    font-size: 1em;
   }
 
   nav{
@@ -206,13 +224,27 @@ main .colorProfessionnal{
   }
   
   /* ---- main ---- */
+
+  h6{
+    font-size: 1.2em;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+  
+  main p{
+    font-size: 1.1em;
+  }
+
+
   hr{
     width: 30%;
     margin: 2% 35% 2% 35%;
   }
 
-  #aboutme, #project{
-    width: 50%;
+  #aboutme, #project, #carrer, #competences{
+    width: 60%;
     margin: auto;
   }
 
@@ -230,7 +262,7 @@ main .colorProfessionnal{
   }
 
   .dates{
-    width: 12%;
+    width: 17%;
     padding: 3% 0;
   }
 }

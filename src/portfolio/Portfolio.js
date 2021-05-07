@@ -14,7 +14,7 @@ class Portfolio extends React.Component {
 
     render () {
         return (
-            <div className="colorPortfolio container-fluid d-flex flex-column justify-content-center">
+            <div className="colorPortfolio container-fluid d-flex flex-column">
                 <section id="project" className="container-fluid">
                     <h2 className="text-center py-4"><i class="fas fa-book"></i> Mes projets</h2>
                     <hr />
