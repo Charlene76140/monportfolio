@@ -1,38 +1,51 @@
-{
-  "name": "monportfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.12.0",
-    "@testing-library/react": "^11.2.6",
-    "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.1"
+[
+  {
+    "de":"Février 2021 -",
+    "à": "A aujourd'hui",
+    "poste": "Formation developpeur web et web mobile",
+    "description": "Je suis actuellement en reconversion professionnelle à Saint-Etienne du Rouvray avec ",
+    "entreprise": "l'AFPA"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+
+  {
+    "de":"Juin 2020 -",
+    "à": "A Octobre 2020",
+    "poste": "Superviseur",
+    "description": "Manager d'équipe du service Dispatch chez ",
+    "entreprise": "Castres Equipement"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+
+  {
+    "de":"Avril 2016 -",
+    "à": "A Janvier 2020",
+    "poste": "Coordinatrice",
+    "description": "Manager d'équipe du service centre de services informatique chez ",
+    "entreprise": "Artemys"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+
+  {
+    "de":"Avril 2015 -",
+    "à": "A Avril 2016",
+    "poste": "Superviseur",
+    "description": "Manager d'équipe service réclamations Orange Businne Services chez ",
+    "entreprise": "Acticall groupe Sitel"
+  },
+
+  {
+    "de":"Février 2014 -",
+    "à": "A Avril 2015",
+    "poste": "Formatrice",
+    "description": "Formatrice service commercial d'Orange Business Services chez ",
+    "entreprise": "Acticall groupe Sitel"
+  },
+
+  {
+    "de":"Janvier 2013 -",
+    "à": "A Avril 2014",
+    "poste": "Superviseur",
+    "description": "Manager d'équipe service commercial Orange Businne Services chez ",
+    "entreprise": "Acticall groupe Sitel"
   }
-}
+
+  
+]

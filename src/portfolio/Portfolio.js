@@ -16,7 +16,7 @@ class Portfolio extends React.Component {
         return (
             <div className="colorPortfolio container-fluid d-flex flex-column justify-content-center">
                 <section id="project" className="container-fluid">
-                    <h2 className="text-center py-4"><i class="fas fa-laptop"></i> Mes projets</h2>
+                    <h2 className="text-center py-4"><i class="fas fa-book"></i> Mes projets</h2>
                     <hr />
                     <div className="row py-4">
                         <Memofruits />
@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
                         <Jeudupendu />
                         <Chifoumi />
                     </div>
-                    <p className="text-center"><a href="#project" className="text-light"><i class="fas fa-angle-up"></i></a></p>
+                    <p className="text-center"><a href="#project" className="text-light" title="Haut de page"><i class="fas fa-angle-up"></i></a></p>
                 </section>
             </div>
         );

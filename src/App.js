@@ -2,6 +2,7 @@ import './App.css';
 import Nav from './layout/nav/Nav'
 import Aboutme from './aboutme/Aboutme'
 import Portfolio from './portfolio/Portfolio';
+import Professionnal from './professionnal/Professionnal';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main>
         <Portfolio />
         <Aboutme />
+        <Professionnal />
       </main>
     </div>
   );
