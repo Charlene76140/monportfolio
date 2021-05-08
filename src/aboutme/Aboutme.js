@@ -1,4 +1,6 @@
+//I import a JSON file with the information
 import aboutme from '../data/aboutme.json'
+// I import two photo formats for the "about me" section
 import moi from '../image/moi.jpg'
 import moipetit from '../image/moipetit.jpg'
 

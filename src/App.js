@@ -1,3 +1,4 @@
+// I import all the components created to be able to display them
 import './App.css';
 import Nav from './layout/nav/Nav'
 import Aboutme from './aboutme/Aboutme'

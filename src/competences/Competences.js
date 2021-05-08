@@ -41,7 +41,6 @@ function Competences () {
                         </div>
                         
                     </div>
-                    
                 </div>
             </section>
         </div>

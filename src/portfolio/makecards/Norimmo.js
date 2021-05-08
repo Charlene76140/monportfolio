@@ -1,9 +1,12 @@
+// I import the image of the card
 import img from '../../image/norimmo.png'
+// I import the JSON file that corresponds to this project and I complete it with the information from the file
 import portfolio from '../../data/norimmo.json'
 
 function Norimmo () {
     return (
         <div className="col-12 col-sm-6 col-md-6 col-lg-4 py-3">
+            {/* the .map function allows me to browse my JSON array */}
             {portfolio.map((project) => {
                 return (
                     <div className="card py-3">
@@ -13,13 +16,11 @@ function Norimmo () {
                             </div>
                             <div className="card-body d-flex flex-column justify-content-between">
                                 <h5 className="card-title text-dark text-center text-decoration-underline my-3">{project.title}</h5>
-                                {/* <p className="card-text text-dark text-center">{project.shortdescription}</p> */}
                                 <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#norimmo">
                                     Voir le projet <i class="fas fa-search-plus"></i>
                                 </button>
                             </div>
                         </div>
-
                         <div class="modal fade" id="norimmo" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">

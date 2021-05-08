@@ -1,9 +1,11 @@
+//I import the JSON file
 import portfolio from '../../data/professionnal.json'
 
 
 function Listprofessionnal () {
     return (
         <div>
+            {/* I browse the JSON array and for each object found I create a section */}
             {portfolio.map((data) => {
                 return (
                     <div className="row d-flex justify-content-center align-items-center my-5">

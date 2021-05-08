@@ -1,3 +1,4 @@
+// I import all the components created to be able to display them
 import React from "react";
 import Memofruits from "./makecards/Memofruits";
 import CR from "./makecards/CR";
@@ -19,6 +20,7 @@ class Portfolio extends React.Component {
                     <h2 className="text-center py-4"><i class="fas fa-book"></i> Mes projets</h2>
                     <hr />
                     <div className="row py-4">
+                    {/* I created a component per portfolio card */}
                         <Memofruits />
                         <CR />
                         <Terre2geek />

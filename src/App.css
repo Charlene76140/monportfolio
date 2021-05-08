@@ -51,8 +51,7 @@ img{
   border-radius: 5px;
   box-shadow: 0px 3px 1px rgb(0 0 0 / 30%);
 }
-
-/* ----------------- Mobile version ------------- */
+/* ------------------------ Mobile version ---------------------- */
 /* ------ Header ------ */
 header{
   position: fixed;
@@ -71,7 +70,6 @@ main p{
 nav{
   height: 15vh;
 }
-
 /* ------- main ------ */
 .onlyIpadComputer{
   display: none;
@@ -91,7 +89,6 @@ hr{
   width: 85%;
   margin: auto;
 }
-
 
 main .colorPortfolio{
   background-color : #4d6a6d;
@@ -186,14 +183,14 @@ main .colorContact{
 .fa-angle-up:hover{
   color: rgba(94, 85, 85, 0.986);
 }
-
 /* ------ Footer ----- */
 .copyrigth{
   font-size: 10px;
   margin: 0;
   padding: 0;
 }
-/* ---------------- Ipad Version ---------------- */
+
+/* --------------------------- Ipad Version ----------------------- */
 @media screen and (min-width: 576px){
   /* ------- Header ------ */
   .onlyMobile{
@@ -239,7 +236,7 @@ main .colorContact{
   }
 }
 
-/* ---------------- Computer Version ---------------- */
+/* --------------------------- Computer Version ----------------------- */
 @media screen and (min-width: 992px){
   /* ------- Header ------- */
   h1{
@@ -268,7 +265,6 @@ main .colorContact{
   main p{
     font-size: 1.1em;
   }
-
 
   hr{
     width: 30%;

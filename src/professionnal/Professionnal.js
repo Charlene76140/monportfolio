@@ -1,3 +1,4 @@
+// I import the Professional List component which gives it the cards
 import Listprofessionnal from './listprofessionnal/Listprofessionnal'
 
 function Professionnal () {
