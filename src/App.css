@@ -180,14 +180,18 @@ main .colorContact{
   font-size: 2.5em;
 }
 
-.fa-angle-up:hover{
-  color: rgba(94, 85, 85, 0.986);
-}
+
 /* ------ Footer ----- */
 .copyrigth{
   font-size: 10px;
   margin: 0;
   padding: 0;
+}
+
+.fa-angle-up:hover{
+  -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.3);
 }
 
 /* --------------------------- Ipad Version ----------------------- */
@@ -216,10 +220,6 @@ main .colorContact{
 
   .fa-angle-up{
     font-size: 3em;
-  }
-
-  .fa-angle-up:hover{
-    color: black;
   }
 
   .parcours{
@@ -271,9 +271,20 @@ main .colorContact{
     margin: 2% 35% 2% 35%;
   }
 
-  #aboutme, #project, #carrer, #competences, #contact{
+  #project, #carrer, #competences, #contact{
     width: 60%;
     margin: auto;
+  }
+
+  #aboutme{
+    width: 50%;
+    margin: auto;
+  }
+
+  .card:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   .card-img-top{
@@ -297,5 +308,6 @@ main .colorContact{
     font-size: 3em;
     width: 3%;
   }
+
 }
 
