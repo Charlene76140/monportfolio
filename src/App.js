@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+// I import all the components created to be able to display them
 import './App.css';
+import Nav from './layout/nav/Nav'
+import Aboutme from './aboutme/Aboutme'
+import Portfolio from './portfolio/Portfolio';
+import Professionnal from './professionnal/Professionnal';
+import Competences from './competences/Competences';
+import Contact from './contact/Contact';
+import Footer from './layout/footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <Nav />
       </header>
+      <main>
+        <Portfolio />
+        <Aboutme />
+        <Professionnal />
+        <Competences />
+        <Contact />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
