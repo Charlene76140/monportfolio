@@ -17,7 +17,7 @@ class Portfolio extends React.Component {
         return (
             <div className="colorPortfolio container-fluid d-flex flex-column py-4" id="topPage">
                 <section id="project" className="container-fluid">
-                    <h2 className="text-center py-4"><i class="fas fa-book"></i> Mes projets</h2>
+                    <h2 className="text-center py-4 test"><i class="fas fa-book"></i> Mes projets</h2>
                     <hr />
                     <div className="row py-4">
                     {/* I created a component per portfolio card */}

@@ -180,6 +180,18 @@ main .colorContact{
   font-size: 2.5em;
 }
 
+/* .animationAboutme{
+  animation: 3s ease-in 1s 1 reverse both running slidein;
+}
+
+@keyframes slidein {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+} */
 
 /* ------ Footer ----- */
 .copyrigth{
@@ -285,6 +297,7 @@ main .colorContact{
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    transition-duration: 400ms;
   }
 
   .card-img-top{
