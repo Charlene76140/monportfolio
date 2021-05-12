@@ -38,8 +38,8 @@ function CR () {
                                             <div className="col-lg-8 modal-rigth">
                                                 <h6 className="card-header">Sites</h6>
                                                 <p>
-                                                    <a href ="https://github.com/Charlene76140/leCreditRouennais">{project.lienGithub}</a><br />
-                                                    <a href ="https://charlene76140.github.io/leCreditRouennais/">{project.lienSite}</a>
+                                                    <a className ="colorLink" href ="https://github.com/Charlene76140/leCreditRouennais">{project.lienGithub}</a><br />
+                                                    <a className ="colorLink" href ="https://charlene76140.github.io/leCreditRouennais/">{project.lienSite}</a>
                                                 </p>
                                                 <h6 className="card-header">Outils utilisés</h6>
                                                 <p>{project.outils}</p>

@@ -1,5 +1,5 @@
 // I import the image of the card
-import img from '../../image/memory.png'
+import img from '../../image/memory.PNG'
 // I import the JSON file that corresponds to this project and I complete it with the information from the file
 import portfolio from '../../data/memofruits.json'
 
@@ -38,8 +38,8 @@ function Memofruits () {
                                             <div className="col-lg-8 modal-rigth">
                                                 <h6 className="card-header">Sites</h6>
                                                 <p>
-                                                    <a href ="https://github.com/Charlene76140/memoFruits">{project.lienGithub}</a><br />
-                                                    <a href ="https://charlene76140.github.io/memoFruits/">{project.lienSite}</a>
+                                                    <a className ="colorLink" href ="https://github.com/Charlene76140/memoFruits">{project.lienGithub}</a><br />
+                                                    <a className ="colorLink" href ="https://charlene76140.github.io/memoFruits/">{project.lienSite}</a>
                                                 </p>
                                                 <h6 className="card-header">Outils utilisés</h6>
                                                 <p>{project.outils}</p>

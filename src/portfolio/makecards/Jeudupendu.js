@@ -38,8 +38,8 @@ function Jeudupendu () {
                                             <div className="col-lg-8 modal-rigth">
                                                 <h6 className="card-header">Sites</h6>
                                                 <p>
-                                                    <a href ="https://github.com/Charlene76140/jeudupendu">{project.lienGithub}</a><br />
-                                                    <a href ="https://charlene76140.github.io/jeudupendu/">{project.lienSite}</a>
+                                                    <a className ="colorLink" href ="https://github.com/Charlene76140/jeudupendu">{project.lienGithub}</a><br />
+                                                    <a className ="colorLink" href ="https://charlene76140.github.io/jeudupendu/">{project.lienSite}</a>
                                                 </p>
                                                 <h6 className="card-header">Outils utilisés</h6>
                                                 <p>{project.outils}</p>

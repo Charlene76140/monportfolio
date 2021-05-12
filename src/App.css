@@ -123,6 +123,10 @@ main .colorContact{
   width: 40%;
 }
 
+.colorLink{
+  color: #4d6a6d;
+}
+
 .imgmodal{
   width: 30%;
   margin-bottom: 5px;
@@ -148,7 +152,7 @@ main .colorContact{
   padding: 8%;
   margin-left: 15px;
   text-align: left;
-  border-radius: 12px;
+  border-radius: 5px;
 }
 
 .fa-code, .fa-tools, .fa-globe-europe, .fa-user-circle{
@@ -180,18 +184,9 @@ main .colorContact{
   font-size: 2.5em;
 }
 
-/* .animationAboutme{
-  animation: 3s ease-in 1s 1 reverse both running slidein;
+.sizeBorder{
+  border-radius: 5px;
 }
-
-@keyframes slidein {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(0);
-  }
-} */
 
 /* ------ Footer ----- */
 .copyrigth{

@@ -4,7 +4,7 @@ function Competences () {
             <section id="competences" className="container-fluid">
                 <h2 className="text-center py-4"><i class="fas fa-laptop"></i> Mes Compétences</h2>
                 <hr />
-                <div className="row my-5 py-5 bg-light">
+                <div className="row my-5 py-5 bg-light sizeBorder">
                     <div className="col-12 col-sm-6 text-dark text-center">
                         <h6 className="mb-4"><i class="fa fa-code"></i> Compétences techniques</h6>
                         <div className="mb-4">
