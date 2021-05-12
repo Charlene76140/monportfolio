@@ -139,8 +139,9 @@ main .colorContact{
 .dates{
   color: #fff;
   background: #c9ada1;
-  width: 55%;
-  padding: 15% 0;
+  width: 150px;
+  height: 150px;
+  font-size: 0.8em;
   border-radius: 50%;
   box-shadow: 0px 3px 1px rgb(0 0 0 / 30%);
 }
@@ -180,8 +181,9 @@ main .colorContact{
   z-index: 100;
   background-color: rgba(83, 88, 102, 0.7);
   border-radius: 50%;
-  width: 10%;
-  font-size: 2.5em;
+  width: 30px;
+  height: 30px;
+  font-size: 1.8em;
 }
 
 .sizeBorder{
@@ -233,13 +235,10 @@ main .colorContact{
     width: 70%;
     padding: 4%;
   }
-  .dates{
-    width: 25%;
-    padding: 5% 0;
-  }
+  
   .toTop{
-    font-size: 2.2em;
-    width: 5%;
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -309,12 +308,7 @@ main .colorContact{
   }
 
   .dates{
-    width: 17%;
-    padding: 3% 0;
-  }
-  .toTop{
-    font-size: 3em;
-    width: 3%;
+    font-size: 0.7em;
   }
 
 }
