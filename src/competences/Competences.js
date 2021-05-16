@@ -22,7 +22,7 @@ function Competences () {
                         <div className="mb-4">
                             <p className="badge rounded-pill py-2 mx-1">Github</p>
                             <p className="badge rounded-pill py-2 mx-1">REACT</p>
-                            <p className="badge rounded-pill py-2 mx-1">Symphony </p>
+                            <p className="badge rounded-pill py-2 mx-1">Symfony </p>
                         </div> 
                     </div>
                     <div className="col-12 col-sm-6 text-dark text-center">
